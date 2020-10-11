@@ -40,7 +40,7 @@ ul li a{
 }
 
 .telefon{
-    margin-top: 40px;
+    /* margin-top: 40px; */
     display: flex;
 }
 
@@ -50,9 +50,8 @@ ul li a{
     font-size: 17px;
     font-weight: 400;
     margin-left: 4px;
-    margin-top: -5px;
-    /* margin-top: 8vh;
-    margin-bottom: 37px; */
+    margin-top: 4vh; 
+    /* margin-bottom: 37px;  */
 }
 
 .tel:hover{
@@ -65,7 +64,7 @@ ul li a{
 
 .eml{
     display: flex;
-    margin-top: 40px;
+    
 }
 
 .email{
@@ -75,7 +74,7 @@ ul li a{
     font-size: 17px;
     font-weight: 400;
     margin-left: 4px;
-    margin-top: -5px;
+    margin-top: 4vh;;
 }
 
 .email p{
@@ -99,17 +98,17 @@ background-position: center;
 } 
 
 
-.slide_title{
+.slide_titlel{
     width: 413px;
     height: 37px;
-    color: #ffffff;
+    color: #8b6d6d;  
     font-family: Raleway;
-    font-size: 34px;
-    font-weight: 700;
-    margin-top: 171px;
+    font-size: 34px;  
+    font-weight: 700;  
+    margin-top: 171px;  
 }
 
-.slider_subtitle{
+.slider_subtitlel{
     width: 317px;
     height: 29px;
     color: #ffffff;
@@ -119,23 +118,24 @@ background-position: center;
     margin-top: 5px;
 }
 
-.slider_text{
+.slider_textl{
     width: 448px;
     height: 64px;
     color: #9dc7d1;
-    font-family: Raleway;
+    font-family: Raleway; 
     font-size: 13px;
     font-weight: 400;
     line-height: 22.77px;
     margin-top: 39px;
 }
 
-.slider_dw{
+.sliderl_dw{
     margin-top: 47px;
     margin-bottom: 246px;
+    font-family: Raleway;
 }
 
-.slider_dw a {
+.sliderl_dw a {
     border: 3px solid rgba(255, 255, 255, 0.5);
     border-radius: 40px;
     padding: 20px 53px;
@@ -143,7 +143,7 @@ background-position: center;
     text-decoration: none;
 }
 
-.slider_dw a:hover{
+.sliderl_dw a:hover{
     background-color:#5dca88;
     color: black;
 }
@@ -322,23 +322,13 @@ span{
 
 
 
-.arrow{
-    background-color:rgb(247, 243, 243);
-    
-}
 
-/* .screen{
-    margin-top: -630px;
-    margin-left: 3px;
-} */
 
-.iphone{
-    margin-left: 29px;
+
+.card{
     margin-top: 76px;
-    /* width: 285px;
-    height: 594px; */
+    margin-left: 25px;
 }
-
 
 
 
@@ -367,14 +357,12 @@ span{
 
 
 
-.iphonetext1{
-    width: 238px;
+.card-text{
     color: #8c9494;
     font-family: Raleway;
     font-size: 13px;
     font-weight: 400;
     line-height: 22.77px;
-    margin-left: 60px;
     margin-top: 40px; 
 }
 
