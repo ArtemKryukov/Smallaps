@@ -533,7 +533,7 @@ span{
     border-radius: 30px;
     position: absolute; 
     margin-top: 54px; 
-    margin-left: -70px;
+    margin-left: -190px;
 }
 
 .btn  a{ 
@@ -587,6 +587,7 @@ span{
 
 .footer_nav{
     margin-top: 61px;
+    margin-left: 2vh;
     color: #8c9494; !important 
     font-family: Raleway;
     font-size: 13px;
