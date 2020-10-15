@@ -1,4 +1,5 @@
-.logo{
+
+.logo {
     width: 140px;
     height: 31px;
     color: #3c3d42;
@@ -7,81 +8,81 @@
     font-weight: 400;
     /* margin-top: 7px; 
     margin-bottom: 34px; */
-    
+
 }
 
-.header_menu{
+.header_menu {
     color: #747a7a;
     font-family: Raleway;
     font-size: 13px;
     font-weight: 400;
-    color: #3c3d42; 
+    color: #3c3d42;
     margin-top: 20px;
 }
 
-.header_menu:hover{
+.header_menu:hover {
     color: #5dca88;
 }
 
 
 
 
-ul{
+ul {
     list-style: none;
     display: block;
 }
 
-ul li{
+ul li {
     float: left;
 }
 
-ul li a{
+ul li a {
     padding: 0 8px;
 }
 
-.telefon{
+.telefon {
     /* margin-top: 40px; */
     display: flex;
+    align-items: center;
 }
 
-.tel{
+.tel {
     color: #3c3d42;
     font-family: Raleway;
     font-size: 17px;
     font-weight: 400;
     margin-left: 4px;
-    margin-top: 4vh; 
-    /* margin-bottom: 37px;  */
+    
 }
 
-.tel:hover{
+.tel:hover {
     color: #5dca88;
 }
 
-.tel a{
+.tel a {
     text-align: center;
 }
 
-.eml{
+.eml {
     display: flex;
-    
+    align-items: center;
 }
 
-.email{
-    
+.email {
+
     color: #3c3d42;
     font-family: Raleway;
     font-size: 17px;
     font-weight: 400;
     margin-left: 4px;
-    margin-top: 4vh;;
+    ;
 }
 
-.email p{
+.email p {
     text-align: center;
 }
 
-.email:hover{
+.email:hover {
     color: #5dca88;
 }
 
@@ -90,26 +91,26 @@ ul li a{
 /* slider */
 
 
-.slider{
+.slider {
     background-image: url(../img/4-layers.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 100%;
-} 
-
-
-.slide_titlel{
-    width: 413px;
-    height: 37px;
-    color: #8b6d6d;  
-    font-family: Raleway;
-    font-size: 34px;  
-    font-weight: 700;  
-    margin-top: 171px;  
 }
 
-.slider_subtitlel{
+
+.slide_titlel {
+    width: 413px;
+    height: 37px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 171px;
+}
+
+.slider_subtitlel {
     width: 317px;
     height: 29px;
     color: #ffffff;
@@ -119,18 +120,19 @@ ul li a{
     margin-top: 5px;
 }
 
-.slider_textl{
+.slider_textl {
     width: 448px;
     height: 64px;
     color: #9dc7d1;
-    font-family: Raleway; 
+    font-family: Raleway;
     font-size: 13px;
     font-weight: 400;
     line-height: 22.77px;
     margin-top: 39px;
 }
 
-.sliderl_dw{
+.sliderl_dw {
+    font-size: 20px;
     margin-top: 47px;
     margin-bottom: 246px;
     font-family: Raleway;
@@ -144,46 +146,48 @@ ul li a{
     text-decoration: none;
 }
 
-.sliderl_dw a:hover{
-    background-color:#5dca88;
+.sliderl_dw a:hover {
+    background-color: #5dca88;
     color: black;
 }
 
 /* features */
 
-.features_title{
+.features_title {
     color: #636c6c;
     font-family: Raleway;
     font-size: 34px;
     font-weight: 700;
     margin-top: 93px;
-    
+
 }
 
-.features_subtitle{
+.features_subtitle {
     color: #afb8b8;
     font-family: Raleway;
     font-size: 15px;
     font-weight: 400;
     line-height: 22.77px;
     margin-top: 27px;
+    margin-bottom: 100px;
+
 }
 
-.features_menu{
+.features_menu {
     margin-top: 122px;
 }
 
-.svg{
+.svg {
     margin-bottom: 58px;
 
 }
 
-span{
+span {
     margin-left: 80px;
 }
 
 
-.features1{
+.features1 {
     margin-left: 37px;
     width: 151px;
     height: 24px;
@@ -193,38 +197,38 @@ span{
     font-weight: 400;
 }
 
-.features1{
+.features1 {
     color: #9fa9a9;
     font-family: Raleway;
     font-size: 19px;
     font-weight: 400;
-    
+
 }
 
-.features1:hover{
+.features1:hover {
     color: #5dca88;
 }
 
 
 
 
-.features_img{
+.features_img {
     margin-top: 160px;
     margin-left: 190px;
 }
 
 
-.features2{
+.features2 {
     color: #636c6c;
     font-family: Raleway;
     font-size: 23px;
     font-weight: 700;
     margin-top: 77px;
     margin-left: 150px;
-    
+
 }
 
-.features3{
+.features3 {
     width: 613px;
     height: 85px;
     color: #afb8b8;
@@ -234,16 +238,107 @@ span{
     line-height: 22.77px;
     margin-left: 138px;
     margin-top: 26px;
-    margin-bottom: 193px;
+    
 }
+
+
+* {
+    box-sizing: border-box
+}
+
+
+
+.tabs {
+    padding: 0px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+section {
+    display: none;
+    padding: 15px;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 280px;
+}
+
+p {
+    margin: 0;
+}
+
+input {
+    display: none;
+}
+
+label {
+    display: block;
+    width: 280px;
+
+    color: #4F5966;
+    background: #DEE8F2;
+    cursor: pointer;
+}
+
+
+
+#tab1:checked~#content1,
+#tab2:checked~#content2,
+#tab3:checked~#content3,
+#tab4:checked~#content4,
+#tab5:checked~#content5 {
+    display: block;
+}
+
+section {
+    animation: scale 0.7s ease-in-out;
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.005);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.svg_one{
+    margin-left: 400px;
+}
+
+
+.features2{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.features3{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+
+
 
 /* product-feature */
 
-.product-feature{
+.product-feature {
     background: #f2f9fe;
+    margin-top: 193px;
 }
 
-.product-feature h2{
+.product-feature h2 {
     color: #5dca88;
     font-family: Raleway;
     font-size: 34px;
@@ -251,7 +346,7 @@ span{
     margin-top: 154px;
 }
 
-.product-feature h3{
+.product-feature h3 {
     color: #8c9494;
     font-family: Raleway;
     font-size: 34px;
@@ -259,7 +354,7 @@ span{
     margin-top: 40px;
 }
 
-.product-feature p{
+.product-feature p {
     color: #8c9494;
     font-family: Raleway;
     font-size: 15px;
@@ -268,11 +363,11 @@ span{
     margin-top: 44px;
 }
 
-.learn_product{
+.learn_product {
     margin-top: 48px;
 }
 
-.learn_product a{
+.learn_product a {
     width: 130px;
     height: 18px;
     color: #636c6c;
@@ -286,11 +381,11 @@ span{
     text-decoration: none;
 }
 
-.learn_product a:hover{
+.learn_product a:hover {
     background-color: #5dca88;
 }
 
-.img5{
+.img5 {
     width: 364px;
     height: 668px;
     margin-top: 56px;
@@ -299,7 +394,7 @@ span{
 
 /* gallery */
 
-.galleryh1{
+.galleryh1 {
     margin-top: 93px;
     width: 501px;
     height: 38px;
@@ -309,7 +404,7 @@ span{
     font-weight: 700;
 }
 
-.galleryp{
+.galleryp {
     margin-top: 18px;
     width: 715px;
     height: 43px;
@@ -321,18 +416,18 @@ span{
 }
 
 
-.arrowl{
+.arrowl {
     margin-left: -1px;
 }
 
-.arrowr{
+.arrowr {
     margin-right: -1px;
 }
 
 
 
 
-.card{
+.card {
     margin-top: 76px;
     margin-left: 25px;
 }
@@ -340,24 +435,24 @@ span{
 
 
 
-.card-text{
+.card-text {
     color: #8c9494;
     font-family: Raleway;
     font-size: 13px;
     font-weight: 400;
     line-height: 22.77px;
-    margin-top: 40px; 
+    margin-top: 40px;
 }
 
 /* product-geature */
 
 
-.fluid{
+.fluid {
     background-color: #f2f9fe;
     margin-top: 116px;
 }
 
-.box5{
+.box5 {
     width: 305px;
     height: 631px;
     margin-top: 73px;
@@ -365,7 +460,7 @@ span{
 
 }
 
-.title_qeature{
+.title_qeature {
     width: 453px;
     height: 78px;
     color: #5dca88;
@@ -375,11 +470,11 @@ span{
     margin-top: 154px;
 }
 
-.hr{
+.hr {
     margin-top: 14px;
 }
 
-.subtitle_qeature{
+.subtitle_qeature {
     width: 391px;
     height: 70px;
     color: #8c9494;
@@ -389,7 +484,7 @@ span{
     margin-top: 40px;
 }
 
-.text_qeature{
+.text_qeature {
     color: #8c9494;
     font-family: Raleway;
     font-size: 15px;
@@ -399,12 +494,12 @@ span{
     margin-top: 44px;
 }
 
-.learn_more{
+.learn_more {
     margin-top: 48px;
     margin-left: 20px;
 }
 
-.learn_more a{
+.learn_more a {
     width: 132px;
     height: 18px;
     color: #636c6c;
@@ -418,14 +513,14 @@ span{
     text-decoration: none;
 }
 
-.learn_more a:hover{
+.learn_more a:hover {
     background-color: #5dca88;
 }
 
 
 /* testimonials */
 
-.testimonials_title{
+.testimonials_title {
     color: #636c6c;
     font-family: Raleway;
     font-size: 34px;
@@ -437,12 +532,12 @@ span{
 
 
 
-.user{
+.user {
     margin-top: 34px;
-    
+
 }
 
-.text_testimonials{
+.text_testimonials {
     color: #8c9494;
     font-family: "Droid Serif";
     font-size: 20px;
@@ -450,7 +545,7 @@ span{
     margin-top: 43px;
 }
 
-.name{
+.name {
     color: #5dca88;
     font-family: Raleway;
     font-size: 21px;
@@ -470,7 +565,7 @@ span{
     margin-top: -115px;
 }
 
-.carousel-indicators{
+.carousel-indicators {
     margin-left: 14vh;
 }
 
@@ -480,13 +575,13 @@ span{
 
 /* newsletter */
 
-.newsletter{
+.newsletter {
     background: #f3f5f5;
 }
 
 
 
-.newsletter_title{
+.newsletter_title {
     color: #8c9494;
     font-family: Raleway;
     font-size: 34px;
@@ -495,39 +590,39 @@ span{
     margin-top: 86px;
 }
 
-.input{
+.input {
     min-width: 632px;
     height: 58px;
     background-color: #ffffff;
     border-radius: 30px;
     margin-top: 54px;
     margin-bottom: 115px;
-    
+
 }
 
-.input:focus{
+.input:focus {
     outline: none;
 }
 
-.btn{
+.btn {
     width: 162px;
     height: 58px;
     background-color: #5dca88;
     border-radius: 30px;
-    position: absolute; 
-    margin-top: 54px; 
+    position: absolute;
+    margin-top: 54px;
     margin-left: -190px;
 }
 
-.btn  a{ 
+.btn a {
     text-decoration: none;
 }
 
-.btn a:hover{
+.btn a:hover {
     color: #8c9494;
 }
 
-.submit{
+.submit {
     color: #ffffff;
     font-family: "Proxima Nova";
     font-size: 19px;
@@ -535,11 +630,11 @@ span{
     line-height: 22.77px;
     text-transform: uppercase;
     text-decoration: none;
-    
-    
+
+
 }
 
-.placeholder{
+.placeholder {
     color: #8c9494;
     font-family: Raleway;
     font-size: 13px;
@@ -550,11 +645,11 @@ span{
 
 /* footer */
 
-.footer{
+.footer {
     background: #2d312f;
 }
 
-.footer_text{
+.footer_text {
     color: #8c9494;
     font-family: Raleway;
     font-size: 23px;
@@ -564,31 +659,29 @@ span{
     text-align: center;
 }
 
-.icons_footer{
+.icons_footer {
     margin-top: 27px;
 }
 
-.footer_nav{
+.footer_nav {
     margin-top: 61px;
     margin-left: 2vh;
-    color: #8c9494; !important 
-    font-family: Raleway;
+    color: #8c9494;
+     !important font-family: Raleway;
     font-size: 13px;
     font-weight: 400;
     line-height: 24.77px;
 }
 
-.footer_nav li{
+.footer_nav li {
     margin-bottom: 44px;
 }
 
-a{
-    text-decoration: none !important ;
-color: #8c9494
+a {
+    text-decoration: none !important;
+    color: #8c9494
 }
 
-.footer_nav a:hover{
+.footer_nav a:hover {
     color: #5dca88;
 }
-
-
