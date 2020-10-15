@@ -100,9 +100,7 @@ ul li a {
 }
 
 
-.slide_titlel {
-    width: 413px;
-    height: 37px;
+.slide_titlel h1{
     color: #ffffff;
     font-family: Raleway;
     font-size: 34px;
@@ -110,25 +108,24 @@ ul li a {
     margin-top: 171px;
 }
 
-.slider_subtitlel {
-    width: 317px;
-    height: 29px;
+.slider_subtitlel h2{
     color: #ffffff;
     font-family: Raleway;
     font-size: 34px;
     font-weight: 300;
-    margin-top: 5px;
+    margin-top: -20px;
+    
 }
 
-.slider_textl {
-    width: 448px;
-    height: 64px;
+
+
+.slider_text {
     color: #9dc7d1;
     font-family: Raleway;
     font-size: 13px;
     font-weight: 400;
     line-height: 22.77px;
-    margin-top: 39px;
+    
 }
 
 .sliderl_dw {
@@ -173,9 +170,7 @@ ul li a {
 
 }
 
-.features_menu {
-    margin-top: 122px;
-}
+
 
 .svg {
     margin-bottom: 58px;
@@ -184,6 +179,12 @@ ul li a {
 
 span {
     margin-left: 80px;
+}
+
+
+
+.svg:hover{
+    color: #5dca88;
 }
 
 
@@ -197,13 +198,7 @@ span {
     font-weight: 400;
 }
 
-.features1 {
-    color: #9fa9a9;
-    font-family: Raleway;
-    font-size: 19px;
-    font-weight: 400;
 
-}
 
 .features1:hover {
     color: #5dca88;
@@ -211,11 +206,6 @@ span {
 
 
 
-
-.features_img {
-    margin-top: 160px;
-    margin-left: 190px;
-}
 
 
 .features2 {
@@ -255,6 +245,8 @@ span {
 
 }
 
+
+
 section {
     display: none;
     padding: 15px;
@@ -268,16 +260,14 @@ p {
     margin: 0;
 }
 
-input {
+.tabs input {
     display: none;
 }
 
 label {
     display: block;
     width: 280px;
-
     color: #4F5966;
-    background: #DEE8F2;
     cursor: pointer;
 }
 
@@ -315,17 +305,18 @@ section {
 
 .svg_one{
     margin-left: 400px;
+    
 }
 
 
 .features2{
-    margin-left: 300px;
+    margin-left: 195px;
     margin-top: 50px;
 }
 
 .features3{
-    margin-left: 300px;
-    margin-top: 50px;
+    margin-left: 195px;
+    margin-top: 26px;
 }
 
 
@@ -387,7 +378,7 @@ section {
 
 .img5 {
     width: 364px;
-    height: 668px;
+    
     margin-top: 56px;
     margin-bottom: 55px;
 }
