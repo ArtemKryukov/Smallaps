@@ -41,7 +41,7 @@ ul li a {
 }
 
 .telefon {
-    /* margin-top: 40px; */
+    margin-top: 1rem;
     display: flex;
     align-items: center;
 }
@@ -64,6 +64,7 @@ ul li a {
 }
 
 .eml {
+    margin-top: 1rem;
     display: flex;
     align-items: center;
 }
