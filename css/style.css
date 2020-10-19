@@ -658,7 +658,7 @@ section {
     margin-top: 61px;
     margin-left: 2vh;
     color: #8c9494;
-     !important font-family: Raleway;
+    font-family: Raleway;
     font-size: 13px;
     font-weight: 400;
     line-height: 24.77px;
@@ -675,4 +675,10 @@ a {
 
 .footer_nav a:hover {
     color: #5dca88;
+}
+
+.namefooter{
+    margin-left: -60px;
+    text-align: center;
+    color:#8c9494;
 }
