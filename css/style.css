@@ -239,6 +239,7 @@ span {
 
 
 
+
 .tabs {
     padding: 0px;
     margin: 0 auto;
@@ -537,6 +538,11 @@ section {
     margin-top: 43px;
 }
 
+.text_testimonials span{
+    text-align: center;
+}
+    
+
 .name {
     color: #5dca88;
     font-family: Raleway;
@@ -583,6 +589,7 @@ section {
 }
 
 .input {
+    padding: 0 20px;
     min-width: 632px;
     height: 58px;
     background-color: #ffffff;
@@ -626,7 +633,10 @@ section {
 
 }
 
+
+
 .placeholder {
+    margin-left: 120px;
     color: #8c9494;
     font-family: Raleway;
     font-size: 13px;
