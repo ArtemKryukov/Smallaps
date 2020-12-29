@@ -1,2 +1,2 @@
 # ArtemKryukov.github.io
-Дипломный проект
+My first pure HTML and CSS website. Has no responsive layout
